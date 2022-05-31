@@ -51,10 +51,70 @@ body {
     flex-direction: row-reverse;
     gap: 12px;
 }
+.header-buttons a {
+    color: inherit;
+    text-decoration: inherit;
+}
 .hbut1, .hbut2, .hbut3 {
-    border: 2px solid black;
+    background-color: saddlebrown;
+    color: black;
     padding: 4px;
     border-radius: 10px;
     font-weight: 700;
     font-size: 24px;
+}
+
+/* Main page content*/
+.page-header {
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-self: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 36px;
+    font-weight: 700;
+}
+.big-small-info {
+    align-self: center;
+    border-radius: 10px;
+    background-color: rgb(116, 48, 0);
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.small-info {
+    align-self: center;
+    font-size: 12px;
+}
+.contain-project-all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.project-box {
+    display: flex;
+    justify-content: center;
+    max-height: auto;
+    max-width: auto;
+    padding: 2px;
+    gap: 45px;
+    min-width: auto;
+}
+.project-box img {
+    height: 150px;
+    width: 150px;
+    border-radius: 16px;
+}
+.project-text {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+.project-text div {
+    display: flex;
+    align-self: stretch;
+    justify-content: center;
+    width:  150px;
+    text-align: center;
+    font-weight: 600;
 }
