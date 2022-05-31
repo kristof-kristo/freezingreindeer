@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+    font-family: sans-serif, arial;
+}
+
+.header {
+    max-height: auto;
+    max-width: auto;
+    background-color: saddlebrown;
+    border: 4px solid black;
+    padding: 2px;
+    display: flex;
+    min-width: auto;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+/* Header Left Side */
+.header img {
+    max-height: 200px;
+    min-height: 100px;
+
+}
+
+.header-logo {
+    border: 4px solid black;
+}
+
+/* Header Right Side */
+.navbar {
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+    gap: 6px;
+    max-height: 200px;
+    border: 4px solid black;
+    justify-content: space-between;
+
+}
+
+.header-quote {
+    border: 4px solid black;
+    max-height: 100px;
+    font-weight: 700;
+    
+}
+#pleft {
+    text-align: right;
+    padding-right: 4px;
+}
+
+.header-buttons {
+    border: 4px solid black;
+    max-height: 100px;
+}
+.hbut1, .hbut2, .hbut3 {
+    border: 4px solid black;
+}
