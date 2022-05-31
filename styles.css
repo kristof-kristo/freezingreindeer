@@ -118,3 +118,10 @@ body {
     text-align: center;
     font-weight: 600;
 }
+/* Main Page Bottom Content - not footer! - */
+.q-container {
+    display: flex;
+    border: 4px solid black;
+    margin-top: 100px;
+    justify-content: center;
+}
