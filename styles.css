@@ -62,9 +62,10 @@ body {
     border-radius: 10px;
     font-weight: 700;
     font-size: 24px;
+    border: 2px solid rgb(78, 49, 4);
 }
 
-/* Main page content*/
+/* Main Page Top Content*/
 .page-header {
     display: flex;
     justify-content:center;
@@ -118,11 +119,11 @@ body {
     text-align: center;
     font-weight: 600;
 }
-/* Main Page Bottom Content - not footer! - */
+/* Main Page Center Content */
 .q-container {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 170px;
     justify-content: center;
     background-color: rgba(139, 69, 19, .6);
 }
@@ -149,3 +150,55 @@ body {
     padding-bottom: 10px;
     text-align: center;
 } 
+
+/* Main Page Bottom Content - not footer! - */
+.contain-signup {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 30px;
+}
+.medium-signup {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(116, 48, 0);
+    height: 125px;
+    width: 720px;
+}
+.signup-content {
+    font-size: 18px;
+    font-weight: 700;
+}
+.signup-content p {
+    font-size: 12px;
+    font-weight: 100;
+}
+.signup-button {
+    background-color: saddlebrown;
+    color: black;
+    padding: 4px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    border: 2px solid rgb(78, 49, 4);
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background-color: rgb(116, 48, 0);
+}
+footer div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+footer p {
+    margin: 0;
+}
