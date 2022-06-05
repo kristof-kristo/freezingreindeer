@@ -8,7 +8,7 @@ body {
 .header {
     max-height: auto;
     max-width: auto;
-    background-color: rgb(116, 48, 0);
+    background-color: saddlebrown;
     padding: 2px;
     display: flex;
     min-width: auto;
@@ -79,7 +79,7 @@ body {
 .big-small-info {
     align-self: center;
     border-radius: 10px;
-    background-color: rgb(116, 48, 0);
+    background-color: saddlebrown;
     padding-left: 6px;
     padding-right: 6px;
 }
@@ -163,7 +163,7 @@ body {
     justify-content: space-around;
     align-items: center;
     border-radius: 10px;
-    background-color: rgb(116, 48, 0);
+    background-color: saddlebrown;
     height: 125px;
     width: 720px;
 }
@@ -192,7 +192,7 @@ footer {
     justify-content: center;
     align-items: center;
     margin-top: 30px;
-    background-color: rgb(116, 48, 0);
+    background-color: saddlebrown;
 }
 footer div {
     margin-top: 10px;
